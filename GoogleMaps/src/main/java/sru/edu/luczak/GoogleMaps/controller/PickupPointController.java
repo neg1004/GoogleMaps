@@ -22,7 +22,7 @@ public class PickupPointController {
         stmt.execute(sql);
         
         //Excel
-        String excelFilePath = ".\\Users\\Luke Laptop\\OneDrive\\Desktop\\School_Stuff\\SRU_FinalYear\\CPSC-488\\Project\\PickupPointInfo.xlsx";
+        String excelFilePath = "C:\\Users\\Luke Laptop\\OneDrive\\Desktop\\School_Stuff\\SRU_FinalYear\\CPSC-488\\Project\\PickupPointInfo.xlsx";
         FileInputStream inputStream = new FileInputStream(excelFilePath);
         XSSFWorkbook workbook=new XSSFWorkbook(excelFilePath);
         XSSFSheet sheet = workbook.getSheet("Pickup Points");
