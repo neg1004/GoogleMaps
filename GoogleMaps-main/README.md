@@ -1,2 +1,0 @@
-# GoogleMaps
-Software Engineering Project
