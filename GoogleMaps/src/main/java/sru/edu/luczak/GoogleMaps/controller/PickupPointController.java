@@ -14,7 +14,7 @@ import org.springframework.boot.SpringApplication;
 public class PickupPointController {
 	
 	public static void main(String[] args) throws SQLException, IOException {
-/*		
+		
 		//Connect to the Database
 		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/pickuppoints?useSSL=false&serverTimezone=UTC", "root", "root");
 		Statement stmt = con.createStatement();
@@ -25,6 +25,7 @@ public class PickupPointController {
 		DatabaseMetaData dbm = con.getMetaData();
 		// check if "pickupPoint" table is in the database
 		ResultSet tables = dbm.getTables(null, null, "pickupPoint", null);
+		
 		if(tables.next() == false)
 		{
 			//If table does not exist in the database create it.
@@ -64,8 +65,7 @@ public class PickupPointController {
 	    inputStream.close();
 	    con.close();
 	    
-	    System.out.println("Done");
-	*/	
+	    System.out.println("Done");	
     } 
 }
 
