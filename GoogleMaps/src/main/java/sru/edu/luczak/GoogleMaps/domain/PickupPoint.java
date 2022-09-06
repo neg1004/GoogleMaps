@@ -8,7 +8,7 @@ import javax.persistence.Entity;
 
 @Entity
 public class PickupPoint {
-	
+//From what I understand the domain is where the table in MySQL is created and the columns are named
 	@Id
     @GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
@@ -79,4 +79,4 @@ public class PickupPoint {
 			//MySQL (Works with ^)
 			//javax libraries - Done
 			//apache POI (Spreadsheets)
-			//Contoller (look into)
+			//Controller (look into)
